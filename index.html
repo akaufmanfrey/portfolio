@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>My Portfolio</title>
 </head>
@@ -11,11 +12,66 @@
         <nav>
             <h1>Adam's Portfolio</h1>
             <ul>
-                <li>About Me</li>
-                <li>My Projects</li>
-                <li>Contact Me</li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
             </ul>
         </nav>
     </header>
+    <section id="aboutme">
+        <img src="./assets/images/itsme.jpg" height="300px" width="225px">
+        <h2>About Me</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div id="container">
+            <figure>
+            <a href="https://akaufmanfrey.github.io/urban-octo-telegram/">
+                <img
+                  src="./assets/images/horiseon_screenshot.png"
+                  alt="screenshot of code refactor project"
+                  height="500px"
+                />
+                <h3>Code Refactor</h3>
+            </a>
+            </figure>
+            <div id="column">
+                <figure>
+                <a href="#">
+                    <img
+                      src="./assets/images/comingsoon.jpg"
+                      alt="TBA"
+                      height="200px"
+                    />
+                    <h3>Coming Soon</h3>
+                  </a>
+                </figure>
+                <figure>
+                  <a href="#">
+                    <img
+                      src="./assets/images/comingsoon.jpg"
+                      alt="TBA"
+                      height="200px"
+                    />
+                    <h3>Coming Soon</h3>
+                  </a>
+                </figure>
+            </div>    
+        </div>
+      </section>
+      <footer id="contactme">
+        <h2>Contact Me</h2>
+        <ul>
+            <li>akaufmanfrey@gmail.com</li>
+            <li>333-3333</li>
+            <li><a href="https://github.com/akaufmanfrey">Github</a></li>
+        </ul>
+      </footer>
 </body>
 </html>
